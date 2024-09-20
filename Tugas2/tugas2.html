@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Data Mhs</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <form id="inputForm">
+      <h2>Form Data Mahasiswa</h2>
+      <div class="container">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <br /><br />
+      <div class="container">
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" required />
+      </div>
+      <br /><br />
+      <div class="container">
+        <label for="prodi">Prodi:</label>
+        <input type="text" id="prodi" name="prodi" required />
+      </div>
+      <br /><br />
+      <button type="button" id="addButton">Submit</button>
+    </form>
+
+    <h2>Tabel Inputan</h2>
+
+    <table id="inputTable">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>NIM</th>
+          <th>Prodi</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data yang diinput akan muncul di sini -->
+      </tbody>
+    </table>
+
+    <script src="tugas2.js"></script>
+  </body>
+</html>
